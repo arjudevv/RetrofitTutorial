@@ -1,6 +1,7 @@
 package com.example.apituto.Api;
 
 import com.example.apituto.Models.Comments;
+import com.example.apituto.Models.Photos;
 import com.example.apituto.Models.Post;
 
 import java.util.List;
@@ -75,6 +76,9 @@ public interface ApiInterface {
 
     @DELETE("posts/{id}")
     Call<Void> deletePost(@Path("id") int id);
+
+    @GET("photos")
+    Call<List<Photos>> getPhotos();
 
 
 }

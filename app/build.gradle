@@ -47,4 +47,8 @@ dependencies {
 
     //okHttp
     implementation 'com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.11'
+
+    //glide image loading
+    implementation 'com.github.bumptech.glide:glide:4.15.1'
+    annotationProcessor 'com.github.bumptech.glide:glide:4.15.1'
 }

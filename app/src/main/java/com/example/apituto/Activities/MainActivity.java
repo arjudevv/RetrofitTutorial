@@ -137,6 +137,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void setListeners() {
         binding.buttonComments.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(), CommentsActivity.class)));
+        binding.buttonPhotos.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(), PhotosActivity.class)));
     }
 
     private void getPosts() {
