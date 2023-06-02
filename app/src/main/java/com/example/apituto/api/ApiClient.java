@@ -1,4 +1,4 @@
-package com.example.apituto.Api;
+package com.example.apituto.api;
 
 import androidx.annotation.NonNull;
 

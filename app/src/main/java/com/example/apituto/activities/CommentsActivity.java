@@ -1,16 +1,14 @@
-package com.example.apituto.Activities;
+package com.example.apituto.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 
-import com.example.apituto.Api.ApiClient;
-import com.example.apituto.Api.ApiInterface;
-import com.example.apituto.Models.Comments;
-import com.example.apituto.R;
+import com.example.apituto.api.ApiClient;
+import com.example.apituto.api.ApiInterface;
 import com.example.apituto.databinding.ActivityCommentsBinding;
+import com.example.apituto.models.Comments;
 
 import java.util.List;
 
@@ -21,6 +19,7 @@ import retrofit2.Response;
 public class CommentsActivity extends AppCompatActivity {
 
     ActivityCommentsBinding binding;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

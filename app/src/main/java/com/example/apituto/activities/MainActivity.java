@@ -1,13 +1,13 @@
-package com.example.apituto.Activities;
+package com.example.apituto.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.example.apituto.Api.ApiClient;
-import com.example.apituto.Api.ApiInterface;
-import com.example.apituto.Models.Post;
+import com.example.apituto.api.ApiClient;
+import com.example.apituto.api.ApiInterface;
+import com.example.apituto.models.Post;
 import com.example.apituto.databinding.ActivityMainBinding;
 
 import java.util.HashMap;

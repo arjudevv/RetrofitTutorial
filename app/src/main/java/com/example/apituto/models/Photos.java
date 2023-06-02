@@ -1,0 +1,29 @@
+package com.example.apituto.models;
+
+public class Photos {
+
+    private int albumId;
+
+    private int id;
+
+    private String title;
+
+    private String url;
+
+    public int getAlbumId() {
+        return albumId;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+}

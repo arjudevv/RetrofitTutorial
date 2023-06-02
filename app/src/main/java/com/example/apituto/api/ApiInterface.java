@@ -1,8 +1,8 @@
-package com.example.apituto.Api;
+package com.example.apituto.api;
 
-import com.example.apituto.Models.Comments;
-import com.example.apituto.Models.Photos;
-import com.example.apituto.Models.Post;
+import com.example.apituto.models.Comments;
+import com.example.apituto.models.Photos;
+import com.example.apituto.models.Post;
 
 import java.util.List;
 import java.util.Map;

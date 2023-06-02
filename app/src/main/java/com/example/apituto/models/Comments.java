@@ -1,4 +1,4 @@
-package com.example.apituto.Models;
+package com.example.apituto.models;
 
 import com.google.gson.annotations.SerializedName;
 

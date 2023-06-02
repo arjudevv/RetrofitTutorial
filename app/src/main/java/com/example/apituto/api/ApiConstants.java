@@ -1,4 +1,4 @@
-package com.example.apituto.Api;
+package com.example.apituto.api;
 
 public interface ApiConstants {
 
